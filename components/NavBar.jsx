@@ -12,7 +12,7 @@ const NavBar = () => {
       <div className="logo border-3 ">
         <Link href="/" className="flex ">
           <Image
-            src="/logo.jpg"
+            src="/otherlogo.png"
             alt="SBTRAVEL logo"
             width={120}
             height={120}
@@ -38,7 +38,7 @@ const NavBar = () => {
             src="/images/icon.svg"
             width={25}
             height={5}
-            className="mr-4 mb-9 "
+            className="mr-6 mt-6 mb-9 "
             alt="X"
             onClick={() => setToggleDropdown((prev) => !prev)}
           />

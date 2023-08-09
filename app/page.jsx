@@ -12,7 +12,7 @@ const Home = () => {
           Welcome to SaraBell Travel and Tours Ltd<br></br>
         </h1>
         <div className="px-5  mt-7 m-auto w-3/4">
-          <p className=" px-5 text-center text-xl bg-clip-text text-transparent bg-gradient-to-br from-slate-200  via-amber-400  to-amber-600 ">
+          <p className=" px-1 text-center text-l bg-clip-text text-transparent bg-gradient-to-br from-slate-200  via-amber-400  to-amber-600 ">
             Your gateway to extraordinary travel experiences! Discover the world's most captivating
             destinations, immerse yourself in unique cultures, and create unforgettable memories.
             Whether you're seeking an adventurous escapade, a luxurious getaway, or a relaxing
