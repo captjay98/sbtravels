@@ -61,8 +61,8 @@ export const About = () => {
       <section className="h-auto w-11/12 bg-amber-500 px-5 py-5 my-5 m-auto rounded-3xl">
         <h1 className="w-4/5 m-auto py-5 pb-16 text-center text-2xl bg-clip-text text-transparent bg-gradient-to-br from-slate-900  to-amber-900 ">
           We`&apos;`d love to hear from you! Reach out to our passionate team at 08909809809 or drop
-          us an email at Sarabelltravelandtours@gmail.com. Let's start planning your dream vacation
-          today!
+          us an email at Sarabelltravelandtours@gmail.com. Let`&apos;`s start planning your dream
+          vacation today!
         </h1>
       </section>
 
