@@ -10,11 +10,11 @@ export const Destination = () => {
           <h1 className="text-2xl text-slate-700 py-5">Discover Our Travel Services</h1>
         </div>
         <p className="w-4/5 m-auto py-5 pb-16 text-center text-xl bg-clip-text text-transparent bg-gradient-to-br from-slate-900  to-amber-900  ">
-          At SaraBell Travel and Tours Ltd, we take you on a journey to the world's most enchanting
-          destinations, each brimming with unique wonders and cultural treasures. Whether you crave
-          the adrenaline rush of adventure, the serenity of pristine landscapes, or the allure of
-          vibrant cityscapes, our carefully curated list of featured destinations promises to leave
-          you spellbound
+          At SaraBell Travel and Tours Ltd, we take you on a journey to the world`&apos;`s most
+          enchanting destinations, each brimming with unique wonders and cultural treasures. Whether
+          you crave the adrenaline rush of adventure, the serenity of pristine landscapes, or the
+          allure of vibrant cityscapes, our carefully curated list of featured destinations promises
+          to leave you spellbound
         </p>
       </section>
       <section className="flex flex-wrap rounded-3xl justify-between w-11/12 mt-16 m-auto px-5 py-5 bg-gradient-to-r from-amber-300 via-amber-600 to-slate-500">
