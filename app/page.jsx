@@ -8,11 +8,11 @@ const Home = () => {
     <div className="h-screen">
       <section className="rounded-md pt-2 bg-[url(/images/plane.jpg)]  bg-cover bg-no-repeat border-black w-screen h-screen m-auto ">
         <NavBar />
-        <h1 className=" text-5xl text-center mt-9  bg-clip-text text-transparent bg-gradient-to-br from-amber-400 to-slate-900">
+        <h1 className="text-3xl text-center mt-4  bg-clip-text text-transparent bg-gradient-to-br from-amber-400 to-slate-900">
           Welcome to SaraBell Travel and Tours Ltd<br></br>
         </h1>
         <div className="px-5  mt-7 m-auto w-3/4">
-          <p className=" px-1 text-center text-l bg-clip-text text-transparent bg-gradient-to-br from-slate-200  via-amber-400  to-amber-600 ">
+          <p className=" px-1 text-center text-bold text-l bg-clip-text text-transparent bg-gradient-to-br from-amber-400 to-slate-400 ">
             Your gateway to extraordinary travel experiences! Discover the world`&apos;`s most
             captivating destinations, immerse yourself in unique cultures, and create unforgettable
             memories. Whether you`&apos;`re seeking an adventurous escapade, a luxurious getaway, or
@@ -75,10 +75,10 @@ const Home = () => {
       </div>
 
       <section className="h-auto w-11/12 bg-amber-500 px-5 py-5 my-5 m-auto rounded-3xl">
-        <h1 className="w-4/5 m-auto py-5 pb-16 text-center text-2xl bg-clip-text text-transparent bg-gradient-to-br from-slate-900  to-amber-900 ">
+        <h1 className="w-11/12 m-auto py-5 pb-6 text-center text-2xl text-slate-800 ">
           We are open Monday to Saturday from 9am - 5pm
         </h1>
-        <div className="text-center px-5 py-5 text-xl text-slate-700">
+        <div className="text-center w-11/12 m-auto text-l text-slate-600">
           <p>
             Email: <br></br>Sarabelltravelandtours@gmail.com
           </p>
