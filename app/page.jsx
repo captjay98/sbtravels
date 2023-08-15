@@ -12,7 +12,7 @@ const Home = () => {
           Welcome to SaraBell Travel and Tours Ltd<br></br>
         </h1>
         <div className="px-5  mt-7 m-auto w-3/4">
-          <p className=" px-1 text-center text-bold text-l bg-clip-text text-transparent bg-gradient-to-br from-amber-400 to-slate-400 ">
+          <p className=" px-1 text-center text-bold text-l bg-clip-text text-transparent bg-gradient-to-br from-amber-500 to-slate-500 ">
             Your gateway to extraordinary travel experiences! Discover the world&apos;s most
             captivating destinations, immerse yourself in unique cultures, and create unforgettable
             memories. Whether you`&apos;`re seeking an adventurous escapade, a luxurious getaway, or
@@ -39,7 +39,7 @@ const Home = () => {
       </section>
 
       <div className="text-black text-center text-2xl px-5 py-5 mt-5">
-        <h1 className="text-2xl text-slate-500">What we Offer</h1>
+        <h1 className="text-2xl text-amber-400">What we Offer</h1>
       </div>
 
       <section className="flex flex-wrap rounded-3xl justify-between w-11/12 m-auto px-5 py-5 bg-gradient-to-r from-amber-300 via-amber-600 to-slate-500">
@@ -48,15 +48,15 @@ const Home = () => {
             Personalized Travel & Luxury Adventures
           </h1>
         </div>
-        <div className="bg-[url(/images/luxury.jpg)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className="text-amber-900 text-xl py-2 text-center">Visa Help</h1>
+        <div className="bg-[url(/images/visa.jpg)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
+          <h1 className="text-slate-800 text-xl py-12 text-center">Visa Help</h1>
         </div>
         <div className="bg-[url(/images/mecca.jpg)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
           <h1 className="text-amber-700 text-xl py-2 text-center">Hajj & Umrah Packages</h1>
         </div>
       </section>
       <div className="text-black text-center text-2xl px-5 py-5 mt-5">
-        <h1 className="text-2xl text-slate-500">Top Destinations</h1>
+        <h1 className="text-2xl text-amber-400">Top Destinations</h1>
       </div>
 
       <section className="flex flex-wrap justify-between  rounded-3xl w-11/12 m-auto px-5 py-5 bg-gradient-to-r from-amber-300 via-amber-600 to-slate-500">

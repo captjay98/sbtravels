@@ -10,7 +10,7 @@ export const Destination = () => {
           <h1 className="text-2xl text-slate-700 py-5">Discover Our Travel Services</h1>
         </div>
         <p className="w-4/5 m-auto py-5 pb-16 text-center text-xl bg-clip-text text-transparent bg-gradient-to-br from-slate-900  to-amber-900  ">
-          At SaraBell Travel and Tours Ltd, we take you on a journey to the world`&apos;`s most
+          At SaraBell Travel and Tours Ltd, we take you on a journey to the world&apos;s most
           enchanting destinations, each brimming with unique wonders and cultural treasures. Whether
           you crave the adrenaline rush of adventure, the serenity of pristine landscapes, or the
           allure of vibrant cityscapes, our carefully curated list of featured destinations promises
@@ -51,7 +51,7 @@ export const Destination = () => {
             Cultural Fusion in Marrakech, Morocco.
           </h1>
         </div>
-        <div className="bg-[url(/images/maldive.jpg)]  m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
+        <div className="bg-[url(/images/qatar.jpg)]  m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
           <h1 className="text-amber-900 text-xl py-2 text-center">
             Modernity and Art in Kusail, Qatar.{" "}
           </h1>
