@@ -19,41 +19,40 @@ export const Destination = () => {
       </section>
       <section className="flex flex-wrap rounded-3xl justify-between w-11/12 mt-16 m-auto px-5 py-5 bg-gradient-to-r from-amber-300 via-amber-600 to-slate-500">
         <div className="bg-[url(/images/dubai.jpg)]  m-auto mt-5 w-80  h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className="text-amber-900 text-xl py-16 text-center">Good Vibes in Dubai, UAE.</h1>
+          <h1 className="text-amber-900 text-xl py-2 text-center">Good Vibes in Dubai, UAE.</h1>
         </div>
-        <div className="bg-[url(/images/paris.jpg)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className="text-amber-900 text-xl py-16 text-center">
-            Romance and Art in Paris, France.
-          </h1>
-        </div>
-        <div className="bg-[url(/images/dubai.jpg)]  m-auto mt-5 w-80  h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className="text-amber-900 text-xl py-16 text-center">
+        <div className="bg-[url(/images/mecca.jpg)]  m-auto mt-5 w-80  h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
+          <h1 className="text-amber-900 text-xl py-1 text-center">
             Tranquility & Worship, Mecca & Medina.
           </h1>
         </div>
-
+        <div className="bg-[url(/images/paris.jpg)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
+          <h1 className="text-amber-900 text-xl py-2 text-center">
+            Romance and Art in Paris, France.
+          </h1>
+        </div>
         <div className="bg-[url(/images/egypt.jpg)]  m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className="text-amber-900 text-xl py-16 text-center">
+          <h1 className="text-amber-900 text-xl py-1 text-center">
             The Pyramids in Alexandria, Egypt.
           </h1>
         </div>
 
-        <div className="bg-[url(/images/luxury.jpg)]  m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className="text-slate-400 text-xl py-16 text-center">Beach Bliss in Maldives.</h1>
+        <div className="bg-[url(/images/maldives.jpg)]  m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
+          <h1 className="text-amber-900 text-xl py-2 text-center">Beach Bliss in Maldives.</h1>
         </div>
 
-        <div className="bg-[url(/images/dubai.jpg)]  m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className="text-amber-900 text-xl py-16 text-center">
+        <div className="bg-[url(/images/tanzania.jpg)]  m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
+          <h1 className="text-amber-900 text-xl py-28 ">
             WildLife Safari in Serengeti, Tanzania.
           </h1>
         </div>
-        <div className="bg-[url(/images/egypt.jpg)]  m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className="text-slate-400 text-xl py-16 text-center">
+        <div className="bg-[url(/images/morocco.jpg)]  m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
+          <h1 className=" text-amber-900 text-l  text-right">
             Cultural Fusion in Marrakech, Morocco.
           </h1>
         </div>
-        <div className="bg-[url(/images/luxury.jpg)]  m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className="text-slate-400 text-xl py-16 text-center">
+        <div className="bg-[url(/images/maldive.jpg)]  m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
+          <h1 className="text-amber-900 text-xl py-2 text-center">
             Modernity and Art in Kusail, Qatar.{" "}
           </h1>
         </div>

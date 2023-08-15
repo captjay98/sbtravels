@@ -35,10 +35,10 @@ const NavBar = () => {
       <div className="sm:hidden flex relative">
         <div className="flex">
           <Image
-            src="/images/icon.svg"
-            width={25}
-            height={5}
-            className="mr-6 mt-6 mb-9 "
+            src="/images/menu.png"
+            width={30}
+            height={0}
+            className="mr-6 mt-12 mb-10 "
             alt="X"
             onClick={() => setToggleDropdown((prev) => !prev)}
           />

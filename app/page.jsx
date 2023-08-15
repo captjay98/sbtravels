@@ -13,11 +13,11 @@ const Home = () => {
         </h1>
         <div className="px-5  mt-7 m-auto w-3/4">
           <p className=" px-1 text-center text-bold text-l bg-clip-text text-transparent bg-gradient-to-br from-amber-400 to-slate-400 ">
-            Your gateway to extraordinary travel experiences! Discover the world`&apos;`s most
+            Your gateway to extraordinary travel experiences! Discover the world&apos;s most
             captivating destinations, immerse yourself in unique cultures, and create unforgettable
             memories. Whether you`&apos;`re seeking an adventurous escapade, a luxurious getaway, or
             a relaxing retreat, our expert team is here to curate your dream vacation. Start your
-            journey today and let us take you places you`&apos;`ve only dreamed of!
+            journey today and let us take you places you&apos;ve only dreamed of!
           </p>
         </div>
         {/* <h3 className="text-center text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-blue-900 to-yellow-900 px-5 py-5"> */}
@@ -44,15 +44,15 @@ const Home = () => {
 
       <section className="flex flex-wrap rounded-3xl justify-between w-11/12 m-auto px-5 py-5 bg-gradient-to-r from-amber-300 via-amber-600 to-slate-500">
         <div className="bg-[url(/images/uns.jpg)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className="text-amber-900 text-xl py-16 text-center">
+          <h1 className="text-amber-900 text-xl py-2 text-center">
             Personalized Travel & Luxury Adventures
           </h1>
         </div>
         <div className="bg-[url(/images/luxury.jpg)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className="text-cyan-300 text-xl py-16 text-center">Visa Help</h1>
+          <h1 className="text-amber-900 text-xl py-2 text-center">Visa Help</h1>
         </div>
-        <div className="bg-[url(/images/uns.jpg)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className="text-amber-900 text-xl py-16 text-center">Hajj & Umrah Packages</h1>
+        <div className="bg-[url(/images/mecca.jpg)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
+          <h1 className="text-amber-700 text-xl py-2 text-center">Hajj & Umrah Packages</h1>
         </div>
       </section>
       <div className="text-black text-center text-2xl px-5 py-5 mt-5">
@@ -61,13 +61,13 @@ const Home = () => {
 
       <section className="flex flex-wrap justify-between  rounded-3xl w-11/12 m-auto px-5 py-5 bg-gradient-to-r from-amber-300 via-amber-600 to-slate-500">
         <div className="bg-[url(/images/dubai.jpg)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className="text-slate-900 text-xl py-16 text-center">Dubai</h1>
+          <h1 className="text-slate-900 text-xl py-2 text-center">Dubai</h1>
         </div>
-        <div className="bg-[url(/images/egypt.jpg)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className="text-slate-900 text-xl py-16 text-center">Mecca</h1>
+        <div className="bg-[url(/images/mecca.jpg)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
+          <h1 className="text-amber-900 text-xl py-2 text-center">Mecca</h1>
         </div>
         <div className="bg-[url(/images/paris.jpg)] m-auto mt-5  w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className="text-amber-900 text-xl py-16 text-center">Paris</h1>
+          <h1 className="text-amber-900 text-xl py-2 text-center">Paris</h1>
         </div>
       </section>
       <div className="text-black text-center text-2xl px-5 py-5 mt-5">
