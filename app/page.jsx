@@ -6,23 +6,26 @@ import Footer from "@components/Footer";
 const Home = () => {
   return (
     <div className="h-screen">
-      <section className="rounded-md pt-2 bg-[url(/images/plane.jpg)]  bg-cover bg-no-repeat border-black w-screen h-screen m-auto ">
-        <NavBar />
-        <h1 className="text-3xl text-center mt-4  bg-clip-text text-transparent bg-gradient-to-br from-amber-400 to-slate-900">
-          Welcome to SaraBell Travel and Tours Ltd<br></br>
-        </h1>
-        <div className="px-5  mt-7 m-auto w-3/4">
-          <p className=" px-1 text-center text-bold text-l bg-clip-text text-transparent bg-gradient-to-br from-amber-500 to-slate-500 ">
-            Your gateway to extraordinary travel experiences! Discover the world&apos;s most
-            captivating destinations, immerse yourself in unique cultures, and create unforgettable
-            memories. Whether you`&apos;`re seeking an adventurous escapade, a luxurious getaway, or
-            a relaxing retreat, our expert team is here to curate your dream vacation. Start your
-            journey today and let us take you places you&apos;ve only dreamed of!
-          </p>
+      <section className="rounded-md  bg-[url(/images/plane.jpg)]  bg-cover bg-no-repeat border-black w-screen h-screen m-auto ">
+        <div className="bg-[hsla(0,0%,0%,0.6)] h-full">
+          <NavBar />
+          <h1 className="text-4xl text-center mt-4  bg-clip-text text-transparent bg-gradient-to-br from-amber-500 to-slate-700">
+            Welcome to SaraBell Travel and Tours Ltd<br></br>
+          </h1>
+          <div className="px-5  mt-7 m-auto w-3/4">
+            <p className=" px-1 text-center text-bold text-l bg-clip-text text-transparent bg-gradient-to-br from-amber-500 to-slate-500 ">
+              Your gateway to extraordinary travel experiences! Discover the world&apos;s most
+              captivating destinations, immerse yourself in unique cultures, and create
+              unforgettable memories. Whether you&apos;re seeking an adventurous escapade, a
+              luxurious getaway, or a relaxing retreat, our expert team is here to curate your dream
+              vacation. Start your journey today and let us take you places you&apos;ve only dreamed
+              of!
+            </p>
+          </div>
+          {/* <h3 className="text-center text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-blue-900 to-yellow-900 px-5 py-5"> */}
+          {/*   Experience Hassle Free Travel */}
+          {/* </h3> */}
         </div>
-        {/* <h3 className="text-center text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-blue-900 to-yellow-900 px-5 py-5"> */}
-        {/*   Experience Hassle Free Travel */}
-        {/* </h3> */}
       </section>
 
       <section className="h-auto m-auto flex-center flex-col w-11/12 rounded-3xl bg-gradient-to-r from-amber-300 via-amber-600 to-slate-500">
