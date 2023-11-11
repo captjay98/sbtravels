@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
 import NavBar from "@components/NavBar";
 import Footer from "@components/Footer";
 
@@ -9,12 +7,12 @@ const Home = () => {
       <section className="rounded-md  bg-[url(/images/plane.webp)]  bg-cover bg-no-repeat border-black w-screen h-screen m-auto ">
         <div className="bg-[hsla(0,0%,0%,0.5)] h-full">
           <NavBar />
-          <h1 className="pt-28 text-5xl max-sm:text-3xl text-center  bg-clip-text text-transparent bg-gradient-to-br from-amber-300 to-slate-300 ">
+          <h1 className="pt-28 px-4 text-5xl max-sm:text-3xl text-center  bg-clip-text text-transparent bg-gradient-to-br from-amber-300 to-slate-300 ">
             Welcome to <span class="text-amber-400 font-semibold tracking-wider">SaraBell</span>{" "}
             Travel and Tours Ltd<br></br>
           </h1>
           <div className="px-5  mt-7 m-auto max-sm:w-full w-3/4">
-            <p className=" px-4 text-center font-semibold max-sm:text-sm text-lg bg-clip-text text-transparent bg-gradient-to-r from-amber-300 to-slate-300 tracking-wide leading-7">
+            <p className=" px-4 text-center font-semibold max-sm:text-[18px] text-lg bg-clip-text text-transparent bg-gradient-to-r from-amber-300 to-slate-300 tracking-wide leading-7">
               Your gateway to extraordinary travel experiences! Discover the world&apos;s most
               captivating destinations, immerse yourself in unique cultures, and create
               unforgettable memories. Whether you&apos;re seeking an adventurous escapade, a
