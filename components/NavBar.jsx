@@ -49,7 +49,7 @@ const NavBar = () => {
       <div className="md:hidden flex relative">
         <div className="flex mx-4">
           <Image
-            src="/images/menu.png"
+            src="/images/menu.webp"
             width={30}
             height={0}
             className="mr-6 mt-10 mb-10 "

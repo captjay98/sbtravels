@@ -6,7 +6,7 @@ import Footer from "@components/Footer";
 const Home = () => {
   return (
     <div className="h-screen">
-      <section className="rounded-md  bg-[url(/images/plane.jpg)]  bg-cover bg-no-repeat border-black w-screen h-screen m-auto ">
+      <section className="rounded-md  bg-[url(/images/plane.webp)]  bg-cover bg-no-repeat border-black w-screen h-screen m-auto ">
         <div className="bg-[hsla(0,0%,0%,0.5)] h-full">
           <NavBar />
           <h1 className="pt-28 text-5xl max-sm:text-3xl text-center  bg-clip-text text-transparent bg-gradient-to-br from-amber-300 to-slate-300 ">
@@ -34,7 +34,7 @@ const Home = () => {
       </div>
 
       <section className="min-h-96 h-auto py-20 m-auto w-11/12 rounded-lg shadow-2xl ">
-        <p className="w-4/5 max-sm:w-full max-sm:px-8 m-auto  px-16  lg:py-10 text-center text-xl max-sm:text-[18px] bg-clip-text text-transparent bg-gradient-to-br from-slate-900  to-amber-900 tracking-wide leading-7 ">
+        <p className="w-4/5 max-sm:w-full max-sm:px-8 m-auto  px-16  lg:py-10 text-center text-xl max-sm:text-[18px] bg-clip-text text-transparent bg-gradient-to-br from-slate-900  to-amber-900 tracking-wider leading-8 ">
           At SaraBell Travel and Tours Ltd, we are passionate about travel and dedicated to
           providing exceptional service. With years of experience in the industry, our team of
           travel enthusiasts curates tailor-made itineraries to suit your individual preferences.
@@ -48,17 +48,17 @@ const Home = () => {
       </div>
 
       <section className="flex flex-wrap  rounded-lg justify-between w-11/12 m-auto px-5 py-5 ">
-        <div className="bg-[url(/images/uns.jpg)] m-auto mt-12 w-80 h-96 rounded-lg shadow-2xl bg-cover bg-no-repeat flex-col px-5 py-5">
+        <div className="bg-[url(/images/uns.webp)] m-auto mt-12 w-80 h-96 rounded-lg shadow-2xl bg-cover bg-no-repeat flex-col px-5 py-5">
           <h1 className="text-slate-900 font-semibold tracking-wide text-xl py-2 text-center">
             Personalized Travel & Luxury Adventures
           </h1>
         </div>
-        <div className="bg-[url(/images/visa.jpg)] m-auto mt-12 w-80 h-96 rounded-lg shadow-2xl bg-cover bg-no-repeat flex-col px-5 py-5">
+        <div className="bg-[url(/images/visa.webp)] m-auto mt-12 w-80 h-96 rounded-lg shadow-2xl bg-cover bg-no-repeat flex-col px-5 py-5">
           <h1 className="text-white text-xl font-semibold  tracking-wide  py-12 text-center">
             Visa Help
           </h1>
         </div>
-        <div className="bg-[url(/images/mecca.jpg)] m-auto mt-12 w-80 h-96 rounded-lg shadow-2xl bg-cover bg-no-repeat flex-col px-5 py-5">
+        <div className="bg-[url(/images/mecca.webp)] m-auto mt-12 w-80 h-96 rounded-lg shadow-2xl bg-cover bg-no-repeat flex-col px-5 py-5">
           <h1 className="text-slate-900 font-semibold  tracking-wide  text-xl py-2 text-center">
             Hajj & Umrah Packages
           </h1>
@@ -69,17 +69,17 @@ const Home = () => {
       </div>
 
       <section className="flex flex-wrap justify-between  rounded-3xl w-11/12 m-auto px-5 py-5 ">
-        <div className="bg-[url(/images/dubai.jpg)] m-auto mt-12 w-80 h-96 rounded-xl bg-cover bg-no-repeat flex-col px-5 py-5">
+        <div className="bg-[url(/images/dubai.webp)] m-auto mt-12 w-80 h-96 rounded-xl bg-cover bg-no-repeat flex-col px-5 py-5">
           <h1 className="text-slate-900 text-xl py-2 font-semibold tracking-wide text-center">
             Dubai
           </h1>
         </div>
-        <div className="bg-[url(/images/mecca.jpg)] m-auto mt-12 w-80 h-96 rounded-xl bg-cover bg-no-repeat flex-col px-5 py-5">
+        <div className="bg-[url(/images/mecca.webp)] m-auto mt-12 w-80 h-96 rounded-xl bg-cover bg-no-repeat flex-col px-5 py-5">
           <h1 className="text-slate-900 text-xl py-2  font-semibold tracking-wide text-center">
             Mecca
           </h1>
         </div>
-        <div className="bg-[url(/images/paris.jpg)] m-auto mt-12  w-80 h-96 rounded-xl bg-cover bg-no-repeat flex-col px-5 py-5">
+        <div className="bg-[url(/images/paris.webp)] m-auto mt-12  w-80 h-96 rounded-xl bg-cover bg-no-repeat flex-col px-5 py-5">
           <h1 className="text-slate-900 text-xl py-2  font-semibold tracking-wide text-center">
             Paris
           </h1>

@@ -18,28 +18,28 @@ export const Services = () => {
       </section>
 
       <section className="flex flex-wrap rounded-3xl justify-between w-11/12 mt-16 m-auto px-5 py-5 ">
-        <div className="bg-[url(/images/family.jpg)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5 shadow-2xl">
+        <div className="bg-[url(/images/family.webp)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5 shadow-2xl">
           <h1 className="text-amber-900 text-xl py-16 text-center">Family Friendly Vacations</h1>
         </div>
-        <div className="bg-[url(/images/tour.jpg)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5 shadow-2xl">
+        <div className="bg-[url(/images/tour.webp)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5 shadow-2xl">
           <h1 className="text-slate-900 text-xl py-16 text-center">Customized Tours</h1>
         </div>
-        <div className="bg-[url(/images/mecca.jpg)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5 shadow-2xl">
+        <div className="bg-[url(/images/mecca.webp)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5 shadow-2xl">
           <h1 className="text-slate-900 text-xl py-2 text-center">Hajj & Umrah Visa</h1>
         </div>
-        <div className="bg-[url(/images/lux.jpg)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5 shadow-2xl">
+        <div className="bg-[url(/images/lux.webp)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5 shadow-2xl">
           <h1 className="text-slate-900 text-xl py-2 text-center">Luxury Getaways</h1>
         </div>
-        <div className="bg-[url(/images/dubai.jpg)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5 shadow-2xl">
+        <div className="bg-[url(/images/dubai.webp)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5 shadow-2xl">
           <h1 className="text-slate-900 text-xl py-16 text-center">Group Adventures</h1>
         </div>
-        <div className="bg-[url(/images/paris.jpg)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5 shadow-2xl">
+        <div className="bg-[url(/images/paris.webp)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5 shadow-2xl">
           <h1 className="text-slate-900 text-xl py-16 text-center">HoneyMoon Escapes</h1>
         </div>
-        <div className="bg-[url(/images/tour.jpg)] m-auto mt-5 w-80  h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5 shadow-2xl">
+        <div className="bg-[url(/images/tour.webp)] m-auto mt-5 w-80  h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5 shadow-2xl">
           <h1 className="text-slate-900 text-xl py-16 text-center">Corporate Travel</h1>
         </div>
-        <div className="bg-[url(/images/uns.jpg)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5 shadow-2xl">
+        <div className="bg-[url(/images/uns.webp)] m-auto mt-5 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5 shadow-2xl">
           <h1 className="text-amber-900 text-xl py-16 text-center">Cruise Packages</h1>
         </div>
       </section>
