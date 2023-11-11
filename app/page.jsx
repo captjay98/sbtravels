@@ -9,7 +9,7 @@ const Home = () => {
       <section className="rounded-md  bg-[url(/images/plane.jpg)]  bg-cover bg-no-repeat border-black w-screen h-screen m-auto ">
         <div className="bg-[hsla(0,0%,0%,0.5)] h-full">
           <NavBar />
-          <h1 className="pt-28 text-5xl max-sm:text-3xl text-center mt-4 bg-clip-text text-transparent bg-gradient-to-br from-amber-300 to-slate-300 ">
+          <h1 className="pt-28 text-5xl max-sm:text-3xl text-center  bg-clip-text text-transparent bg-gradient-to-br from-amber-300 to-slate-300 ">
             Welcome to <span class="text-amber-400 font-semibold tracking-wider">SaraBell</span>{" "}
             Travel and Tours Ltd<br></br>
           </h1>
@@ -89,7 +89,7 @@ const Home = () => {
         <h1 className="text-3xl font-semibold text-slate-700 py-5">Reach Out Now</h1>
       </div>
 
-      <section className="h-auto w-11/12 shadow-2xl px-5 py-5 my-5 m-auto rounded-xl">
+      <section className="h-auto w-11/12 shadow-2xl px-5 py-5 my-5 m-auto rounded-xl " id="contact">
         <h1 className="w-11/12 m-auto py-5 pb-6 text-center tracking-wide text-2xl text-slate-700 ">
           We are open Monday to Saturday from 9am - 5pm
         </h1>

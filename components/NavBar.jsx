@@ -38,7 +38,7 @@ const NavBar = () => {
               Services
             </p>
           </Link>
-          <Link href="/contact">
+          <Link href="#contact">
             <p className="hover:underline-offset-4  hover:underline hover:text-amber-500">
               Contact
             </p>
@@ -62,7 +62,7 @@ const NavBar = () => {
               <Link href="/about">About</Link>
               <Link href="/destinations">Destinations</Link>
               <Link href="/services">Services</Link>
-              <Link href="/contact">Contact</Link>
+              <Link href="#contact">Contact</Link>
             </div>
           )}
         </div>
