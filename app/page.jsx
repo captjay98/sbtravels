@@ -46,17 +46,17 @@ const Home = () => {
       </div>
 
       <section className="flex flex-wrap  rounded-lg justify-between w-11/12 m-auto px-5 py-5 ">
-        <div className="bg-[url(/images/uns.webp)] m-auto mt-12 w-80 h-96 rounded-lg shadow-2xl bg-cover bg-no-repeat flex-col px-5 py-5">
+        <div className="bg-[url(/images/uns.webp)] hover:translate-x-2 hover:translate-y-2  m-auto mt-12 w-80 h-96 rounded-lg shadow-2xl bg-cover bg-no-repeat flex-col px-5 py-5">
           <h1 className="text-slate-900 font-semibold tracking-wide text-xl py-2 text-center">
             Personalized Travel & Luxury Adventures
           </h1>
         </div>
-        <div className="bg-[url(/images/visa.webp)] m-auto mt-12 w-80 h-96 rounded-lg shadow-2xl bg-cover bg-no-repeat flex-col px-5 py-5">
+        <div className="bg-[url(/images/visa.webp)] hover:translate-x-2 hover:translate-y-2  m-auto mt-12 w-80 h-96 rounded-lg shadow-2xl bg-cover bg-no-repeat flex-col px-5 py-5">
           <h1 className="text-white text-xl font-semibold  tracking-wide  py-12 text-center">
             Visa Help
           </h1>
         </div>
-        <div className="bg-[url(/images/mecca.webp)] m-auto mt-12 w-80 h-96 rounded-lg shadow-2xl bg-cover bg-no-repeat flex-col px-5 py-5">
+        <div className="bg-[url(/images/mecca.webp)] hover:translate-x-2 hover:translate-y-2  m-auto mt-12 w-80 h-96 rounded-lg shadow-2xl bg-cover bg-no-repeat flex-col px-5 py-5">
           <h1 className="text-slate-900 font-semibold  tracking-wide  text-xl py-2 text-center">
             Hajj & Umrah Packages
           </h1>
@@ -67,17 +67,17 @@ const Home = () => {
       </div>
 
       <section className="flex flex-wrap justify-between  rounded-3xl w-11/12 m-auto px-5 py-5 ">
-        <div className="bg-[url(/images/dubai.webp)] m-auto mt-12 w-80 h-96 rounded-xl bg-cover bg-no-repeat flex-col px-5 py-5">
+        <div className="bg-[url(/images/dubai.webp)] hover:translate-x-2 hover:translate-y-2  m-auto mt-12 w-80 h-96 rounded-xl bg-cover bg-no-repeat flex-col px-5 py-5">
           <h1 className="text-slate-900 text-xl py-2 font-semibold tracking-wide text-center">
             Dubai
           </h1>
         </div>
-        <div className="bg-[url(/images/mecca.webp)] m-auto mt-12 w-80 h-96 rounded-xl bg-cover bg-no-repeat flex-col px-5 py-5">
+        <div className="bg-[url(/images/mecca.webp)] hover:translate-x-2 hover:translate-y-2  m-auto mt-12 w-80 h-96 rounded-xl bg-cover bg-no-repeat flex-col px-5 py-5">
           <h1 className="text-slate-900 text-xl py-2  font-semibold tracking-wide text-center">
             Mecca
           </h1>
         </div>
-        <div className="bg-[url(/images/paris.webp)] m-auto mt-12  w-80 h-96 rounded-xl bg-cover bg-no-repeat flex-col px-5 py-5">
+        <div className="bg-[url(/images/paris.webp)] hover:translate-x-2 hover:translate-y-2  m-auto mt-12  w-80 h-96 rounded-xl bg-cover bg-no-repeat flex-col px-5 py-5">
           <h1 className="text-slate-900 text-xl py-2  font-semibold tracking-wide text-center">
             Paris
           </h1>

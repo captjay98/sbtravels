@@ -17,50 +17,50 @@ export const Destination = () => {
           to leave you spellbound.
         </p>
       </section>
-      <section className="flex flex-wrap rounded-3xl justify-between w-11/12 mt-16 m-auto px-5 py-5 ">
-        <div className="bg-[url(/images/dubai.webp)]  m-auto mt-8 w-80  h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
+      <section className="flex flex-wrap rounded-3xl  justify-between w-full mt-16 m-auto px-5 py-5 ">
+        <div className="bg-[url(/images/dubai.webp)]  hover:translate-x-2 hover:translate-y-2  m-auto mt-10 w-80  h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
           <h1 className="text-amber-900 text-xl py-2 font-semibold tracking-wide text-center">
             Good Vibes in Dubai, UAE.
           </h1>
         </div>
-        <div className="bg-[url(/images/mecca.webp)]  m-auto mt-12 w-80  h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
+        <div className="bg-[url(/images/mecca.webp)]  hover:translate-x-2 hover:translate-y-2  m-auto mt-12 w-80  h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
           <h1 className="text-amber-900 text-xl py- font-semibold tracking-wide text-center">
             Tranquility & Worship, Mecca & Medina.
           </h1>
         </div>
-        <div className="bg-[url(/images/paris.webp)] m-auto mt-12 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
+        <div className="bg-[url(/images/paris.webp)]  hover:translate-x-2 hover:translate-y-2 m-auto mt-14 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
           <h1 className="text-amber-900 text-xl py- font-semibold text-center">
             Romance and Art in Paris, France.
           </h1>
         </div>
-        <div className="bg-[url(/images/egypt.webp)]  m-auto mt-12 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
+        <div className="bg-[url(/images/egypt.webp)]  hover:translate-x-2 hover:translate-y-2  m-auto mt-16 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
           <h1 className="text-amber-900 text-xl  font-semibold  py-1 text-center">
             The Pyramids in Alexandria, Egypt.
           </h1>
         </div>
 
-        <div className="bg-[url(/images/maldives.webp)]  m-auto mt-12 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
+        <div className="bg-[url(/images/maldives.webp)]  hover:translate-x-2 hover:translate-y-2  m-auto mt-10 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
           <h1 className="text-amber-900 text-xl  font-semibold tracking-wide py-2 text-center">
             Beach Bliss in Maldives.
           </h1>
         </div>
 
-        <div className="bg-[url(/images/tanzania.webp)]  m-auto mt-12 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
+        <div className="bg-[url(/images/tanzania.webp)]  hover:translate-x-2 hover:translate-y-2  m-auto mt-12 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
           <h1 className="text-amber-900 text-xl font-semibold tracking-wide pt-28 ">
             WildLife Safari in Serengeti, Tanzania.
           </h1>
         </div>
-        <div className="bg-[url(/images/morocco.webp)]  m-auto mt-10 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
+        <div className="bg-[url(/images/morocco.webp)]  hover:translate-x-2 hover:translate-y-2  m-auto mt-14 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
           <h1 className=" text-slate-900 font-semibold text-xl tracking-wide text-right">
             Cultural Fusion in Marrakech, Morocco.
           </h1>
         </div>
-        <div className="bg-[url(/images/qatar.webp)]  m-auto mt-12 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
+        <div className="bg-[url(/images/qatar.webp)]  hover:translate-x-2 hover:translate-y-2  m-auto mt-16 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
           <h1 className="text-amber-900 font-semibold text-xl py-2 text-center">
             Modernity and Art in Kusail, Qatar.{" "}
           </h1>
         </div>
-        <div className="bg-[url(/images/uns.webp)]  m-auto mt-12 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
+        <div className="bg-[url(/images/uns.webp)]  hover:translate-x-2 hover:translate-y-2  m-auto mt-10 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
           <h1 className="text-amber-900 font-semibold text-xl py-16 text-center">
             And Many More.....
           </h1>
