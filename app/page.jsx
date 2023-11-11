@@ -12,7 +12,7 @@ const Home = () => {
             Travel and Tours Ltd<br></br>
           </h1>
           <div className="px-5  mt-7 m-auto max-sm:w-full w-3/4">
-            <p className=" px-4 text-center font-semibold max-sm:text-[18px] text-lg bg-clip-text text-transparent bg-gradient-to-r from-amber-300 to-slate-300 tracking-wide leading-7">
+            <p className=" px-4 text-center font-semibold max-sm:text-[16px] text-lg bg-clip-text text-transparent bg-gradient-to-r from-amber-300 to-slate-300 tracking-wide leading-7">
               Your gateway to extraordinary travel experiences! Discover the world&apos;s most
               captivating destinations, immerse yourself in unique cultures, and create
               unforgettable memories. Whether you&apos;re seeking an adventurous escapade, a
