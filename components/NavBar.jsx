@@ -30,7 +30,7 @@ const NavBar = () => {
               alt="SaraBell Travel"
               width={160}
               height={64}
-              className="object-contain w-16 h-auto sm:w-32 md:w-40 lg:w-44"
+              className="object-contain w-16 h-auto sm:w-32 md:w-28 lg:w-28"
             />
           </Link>
         </div>
