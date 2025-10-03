@@ -22,7 +22,7 @@ const NavBar = () => {
 
   return (
     <nav className={`sticky top-0 z-50 border-b ${isHomePage ? "border-white/20" : "border-luxury-200 bg-white/95 supports-[backdrop-filter]:bg-white/80 backdrop-blur"}`}>
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16 sm:h-20">
         <div className="flex items-center">
           <Link href="/" className="flex items-center">
             <Image
@@ -30,7 +30,7 @@ const NavBar = () => {
               alt="SaraBell Travel"
               width={160}
               height={64}
-              className="object-contain w-32 h-auto sm:w-40 sm:h-12"
+              className="object-contain w-16 h-auto sm:w-32 md:w-40 lg:w-44"
             />
           </Link>
         </div>
@@ -68,7 +68,7 @@ const NavBar = () => {
       </div>
 
       {open && (
-        <div className="md:hidden absolute right-4 top-20 w-[88%] max-w-xs p-6 shadow-luxury-lg rounded-2xl bg-white ring-1 ring-luxury-200 flex flex-col gap-4">
+        <div className="md:hidden absolute right-4 top-16 sm:top-20 w-[88%] max-w-xs p-6 shadow-luxury-lg rounded-2xl bg-white ring-1 ring-luxury-200 flex flex-col gap-4">
           {links.map(({ href, label }) => (
             <Link key={href} href={href} onClick={() => setOpen(false)} className="font-semibold hover:text-brand-gold">
               {label}
