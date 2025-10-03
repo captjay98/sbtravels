@@ -1,72 +1,69 @@
 import NavBar from "@components/NavBar";
 import Footer from "@components/Footer";
+import Link from "next/link";
 
-export const Destination = () => {
+const destinations = [
+  { name: "Dubai, UAE", img: "/images/dubai.webp", desc: "Good Vibes in Dubai - Modern luxury meets timeless culture" },
+  { name: "Mecca & Medina", img: "/images/mecca.webp", desc: "Tranquility & Worship - The heart of Islamic pilgrimage" },
+  { name: "Paris, France", img: "/images/paris.webp", desc: "Romance and Art in Paris - The eternal city of lights" },
+  { name: "Alexandria, Egypt", img: "/images/egypt.webp", desc: "The Pyramids - Ancient wonders and rich history" },
+  { name: "Maldives", img: "/images/maldives.webp", desc: "Beach Bliss - Paradise islands and crystal waters" },
+  { name: "Serengeti, Tanzania", img: "/images/tanzania.webp", desc: "Wildlife Safari - Experience nature at its finest" },
+  { name: "Marrakech, Morocco", img: "/images/morocco.webp", desc: "Cultural Fusion - Vibrant markets and rich traditions" },
+  { name: "Kusail, Qatar", img: "/images/qatar.webp", desc: "Modernity and Art - Where tradition meets innovation" },
+  { name: "And Many More", img: "/images/uns.webp", desc: "Explore countless destinations around the world" },
+];
+
+const Destination = () => {
   return (
-    <div>
+    <div className="min-h-screen">
       <NavBar />
-      <section className="h-auto m-auto flex-center flex-col w-11/12 rounded-xl shadow-2xl ">
-        <div className="text-black text-center text-2xl px-5 pt-3 mt-9">
-          <h1 className="text-2xl text-slate-700 py-5">Discover Our Travel Services</h1>
-        </div>
-        <p className="w-4/5 max-sm:w-full max-sm:px-4  m-auto py-5 pb-16 text-center text-xl max-sm:text-[18px] bg-clip-text text-transparent bg-gradient-to-br from-slate-900  to-amber-900  ">
-          At SaraBell Travel and Tours Ltd, we take you on a journey to the world&apos;s most
-          enchanting destinations, each brimming with unique wonders and cultural treasures. Whether
-          you crave the adrenaline rush of adventure, the serenity of pristine landscapes, or the
-          allure of vibrant cityscapes, our carefully curated list of featured destinations promises
-          to leave you spellbound.
-        </p>
-      </section>
-      <section className="flex flex-wrap rounded-3xl  justify-between w-full mt-16 m-auto px-5 py-5 ">
-        <div className="bg-[url(/images/dubai.webp)]  hover:translate-x-2 hover:translate-y-2  m-auto mt-10 w-80  h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className="text-amber-900 text-xl py-2 font-semibold tracking-wide text-center">
-            Good Vibes in Dubai, UAE.
+      
+      <section className="relative py-32 bg-gradient-to-br from-brand-navy to-slate-900">
+        <div className="absolute inset-0 bg-[url(/images/plane.webp)] bg-cover bg-center opacity-10" />
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
+            Explore <span className="text-gradient">Destinations</span>
           </h1>
-        </div>
-        <div className="bg-[url(/images/mecca.webp)]  hover:translate-x-2 hover:translate-y-2  m-auto mt-12 w-80  h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className="text-amber-900 text-xl py- font-semibold tracking-wide text-center">
-            Tranquility & Worship, Mecca & Medina.
-          </h1>
-        </div>
-        <div className="bg-[url(/images/paris.webp)]  hover:translate-x-2 hover:translate-y-2 m-auto mt-14 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className="text-amber-900 text-xl py- font-semibold text-center">
-            Romance and Art in Paris, France.
-          </h1>
-        </div>
-        <div className="bg-[url(/images/egypt.webp)]  hover:translate-x-2 hover:translate-y-2  m-auto mt-16 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className="text-amber-900 text-xl  font-semibold  py-1 text-center">
-            The Pyramids in Alexandria, Egypt.
-          </h1>
-        </div>
-
-        <div className="bg-[url(/images/maldives.webp)]  hover:translate-x-2 hover:translate-y-2  m-auto mt-10 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className="text-amber-900 text-xl  font-semibold tracking-wide py-2 text-center">
-            Beach Bliss in Maldives.
-          </h1>
-        </div>
-
-        <div className="bg-[url(/images/tanzania.webp)]  hover:translate-x-2 hover:translate-y-2  m-auto mt-12 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className="text-amber-900 text-xl font-semibold tracking-wide pt-28 ">
-            WildLife Safari in Serengeti, Tanzania.
-          </h1>
-        </div>
-        <div className="bg-[url(/images/morocco.webp)]  hover:translate-x-2 hover:translate-y-2  m-auto mt-14 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className=" text-slate-900 font-semibold text-xl tracking-wide text-right">
-            Cultural Fusion in Marrakech, Morocco.
-          </h1>
-        </div>
-        <div className="bg-[url(/images/qatar.webp)]  hover:translate-x-2 hover:translate-y-2  m-auto mt-16 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className="text-amber-900 font-semibold text-xl py-2 text-center">
-            Modernity and Art in Kusail, Qatar.{" "}
-          </h1>
-        </div>
-        <div className="bg-[url(/images/uns.webp)]  hover:translate-x-2 hover:translate-y-2  m-auto mt-10 w-80 h-96 rounded-3xl bg-cover bg-no-repeat flex-col px-5 py-5">
-          <h1 className="text-amber-900 font-semibold text-xl py-16 text-center">
-            And Many More.....
-          </h1>
+          <p className="text-xl text-white/90 max-w-3xl mx-auto">
+            Discover the world&apos;s most enchanting destinations, each brimming with unique wonders and cultural treasures.
+          </p>
         </div>
       </section>
-      <Footer />{" "}
+
+      <section className="py-24 bg-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {destinations.map((dest) => (
+              <div key={dest.name} className="group relative rounded-2xl overflow-hidden h-96 card-hover">
+                <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${dest.img})` }} />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent group-hover:from-black/90 transition-all duration-300" />
+                <div className="absolute bottom-0 left-0 right-0 p-6">
+                  <h3 className="text-white text-2xl font-bold mb-2">{dest.name}</h3>
+                  <p className="text-white/80 text-sm">{dest.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="relative py-24 bg-brand-navy">
+        <div className="absolute inset-0 bg-[url(/images/plane.webp)] bg-cover bg-center opacity-20" />
+        <div className="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+            Ready to Explore?
+          </h2>
+          <p className="text-xl text-white/90 mb-10">
+            Let us help you plan your dream destination.
+          </p>
+          <Link href="/contact" className="btn-primary">
+            Start Planning
+          </Link>
+        </div>
+      </section>
+
+      <Footer />
     </div>
   );
 };

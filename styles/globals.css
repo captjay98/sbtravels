@@ -3,25 +3,52 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 200, 245, 230;
-  --background-start-rgb: 224, 239, 240;
-  --background-end-rgb: 155, 215, 245;
+  --bg: 250 250 250;
+  --fg: 15 23 42;
+  --gold: 212 175 55;
+  --navy: 10 17 40;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: rgb(var(--gold));
+  color: white;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: radial-gradient(
-      to middle,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: rgb(var(--fg));
+  background-color: rgb(var(--bg));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-lg bg-brand-gold text-white px-6 py-3 font-semibold shadow-lg hover:bg-brand-gold-dark transition-all duration-300 hover:shadow-xl hover:scale-105;
+  }
+  
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-lg bg-white/10 text-white ring-1 ring-white/30 px-6 py-3 font-semibold hover:bg-white/20 transition-all duration-300;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-luxury-lg;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-brand-navy mb-4;
+  }
+  
+  .section-subtitle {
+    @apply text-lg text-slate-600 max-w-3xl mx-auto;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-gold to-brand-gold-light;
+  }
 }
