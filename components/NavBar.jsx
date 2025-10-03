@@ -18,23 +18,25 @@ const NavBar = () => {
 
   const isActive = (href) => href === "/" ? pathname === "/" : pathname.startsWith(href);
 
+  const isHomePage = pathname === "/";
+
   return (
-    <nav className="sticky top-0 z-50 bg-white/95 supports-[backdrop-filter]:bg-white/80 backdrop-blur border-b border-luxury-200">
+    <nav className={`sticky top-0 z-50 border-b ${isHomePage ? "border-white/20" : "border-luxury-200 bg-white/95 supports-[backdrop-filter]:bg-white/80 backdrop-blur"}`}>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20">
         <div className="flex items-center">
           <Link href="/" className="flex items-center">
             <Image
               src="/otherlogo.png"
               alt="SaraBell Travel"
-              width={130}
-              height={52}
-              className="object-contain"
+              width={160}
+              height={64}
+              className="object-contain w-32 h-auto sm:w-40 sm:h-12"
             />
           </Link>
         </div>
 
         <div className="hidden md:flex items-center gap-10">
-          <div className="text-sm font-semibold flex items-center gap-8 text-slate-700">
+          <div className={`text-sm font-semibold flex items-center gap-8 ${isHomePage ? "text-white" : "text-slate-700"}`}>
             {links.map(({ href, label }) => (
               <Link
                 key={href}
@@ -57,7 +59,7 @@ const NavBar = () => {
           <button
             type="button"
             aria-label="Toggle menu"
-            className="p-2 rounded-md hover:bg-luxury-100"
+            className={`p-2 rounded-md ${isHomePage ? "hover:bg-white/10" : "hover:bg-luxury-100"}`}
             onClick={() => setOpen((prev) => !prev)}
           >
             <Image src="/images/menu.webp" width={28} height={28} alt="Menu" />

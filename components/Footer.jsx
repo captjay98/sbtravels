@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  
+
   return (
     <footer className="w-full bg-brand-navy text-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
@@ -61,10 +61,10 @@ const Footer = () => {
           <p className="text-white/60 text-sm">
             © {currentYear} SaraBell Travel and Tours Ltd. All rights reserved.
           </p>
-          <a 
-            href="https://thecodecaptain.vercel.app" 
-            target="_blank" 
-            rel="noopener noreferrer" 
+          <a
+            href="https://jamal.deliverynexus.ng"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-brand-gold hover:text-brand-gold-light transition-colors text-sm"
           >
             Designed by thecodecaptain
